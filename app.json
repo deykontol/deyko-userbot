@@ -1,7 +1,7 @@
 {
-  "name": "solid music repo",
+  "name": "deyko music repo",
   "description": "Open Source bot to stream media trough Telegram Voice Chat",
-  "repository": "https://github.com/DoellBarr/solidmusic",
+  "repository": "https://github.com/DoellBarr/deykomusic",
   "stack": "container",
   "buildpacks": [
     {
@@ -33,19 +33,19 @@
       "required": true
     },
     "GROUP_LINK": {
-      "description": "your group support link, can use private or public group, example https://t.me/solidprojects_chat",
+      "description": "your group support link, can use private or public group, example https://t.me/Seexlovers",
       "required": false,
-      "value": "https://t.me/solidprojects_chat"
+      "value": "https://t.me/Seexlovers"
     },
     "CHANNEL_LINK": {
-      "description": "your channel support link, can use private or public channel, example https://t.me/solidprojects",
+      "description": "your channel support link, can use private or public channel, example https://t.me/deykonten",
       "required": false,
-      "value": "https://t.me/solidprojects"
+      "value": "https://t.me/deykonten"
     },
     "UPSTREAM_REPO": {
       "description": "fill it if you fork from original repo",
       "required": false,
-      "value": "https://github.com/DoellBarr/solidmusic"
+      "value": "https://github.com/DoellBarr/deykomusic"
     },
     "AUTO_LEAVE": {
       "description": "fill it with delay time for leaving group, fill 0 if you do not want to use this feature",
