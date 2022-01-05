@@ -1,7 +1,7 @@
 {
   "name": "deyko music repo",
   "description": "Open Source bot to stream media trough Telegram Voice Chat",
-  "repository": "https://github.com/DoellBarr/deykomusic",
+  "repository": "https://github.com/deykontol/deyko_music",
   "stack": "container",
   "buildpacks": [
     {
@@ -45,7 +45,7 @@
     "UPSTREAM_REPO": {
       "description": "fill it if you fork from original repo",
       "required": false,
-      "value": "https://github.com/DoellBarr/deykomusic"
+      "value": "https://github.com/deykontol/deyko_music"
     },
     "AUTO_LEAVE": {
       "description": "fill it with delay time for leaving group, fill 0 if you do not want to use this feature",
